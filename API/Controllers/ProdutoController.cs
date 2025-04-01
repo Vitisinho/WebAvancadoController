@@ -7,6 +7,7 @@ namespace API.Controllers;
 public class ProdutoController : ControllerBase
 {
     //Exemplo de metodo dentro de uma classe
+    [HttpGet]
     public string Metodo()
     {
         return "";
