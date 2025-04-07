@@ -1,6 +1,13 @@
 @API_HostAddress = http://localhost:5175
 
+@url_base = http://localhost:5175/api/produto
 GET {{API_HostAddress}}/weatherforecast/
 Accept: application/json
 
-###
+### Cadastrar Produto
+POST {{url_base}}/cadastrar
+Content-Type: application/json
+
+{
+    "nome" : "Macarrão"
+}

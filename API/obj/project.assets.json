@@ -2554,11 +2554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VITORMARCELOBARZICKN\\Downloads\\Nova pasta\\Ecommerce\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\VITORMARCELOBARZICKN\\Downloads\\Nova pasta\\WebAvancadoController\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\VITORMARCELOBARZICKN\\Downloads\\Nova pasta\\Ecommerce\\API\\API.csproj",
+      "projectPath": "C:\\Users\\VITORMARCELOBARZICKN\\Downloads\\Nova pasta\\WebAvancadoController\\API\\API.csproj",
       "packagesPath": "C:\\Users\\VITORMARCELOBARZICKN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VITORMARCELOBARZICKN\\Downloads\\Nova pasta\\Ecommerce\\API\\obj\\",
+      "outputPath": "C:\\Users\\VITORMARCELOBARZICKN\\Downloads\\Nova pasta\\WebAvancadoController\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VITORMARCELOBARZICKN\\AppData\\Roaming\\NuGet\\NuGet.Config"
