@@ -8,17 +8,17 @@ namespace API.Controllers;
 [Route("api/produto")]
 public class ProdutoController : ControllerBase
 {
-    private readonly AppDataContext _context;
-    public ProdutoController(AppDataContext contexto)
+    private readonly IProdutoReposity _produtoRepository;
+    public ProdutoController(IProdutoReposity produtoRepository)
     {
-        _context = contexto;
+        _produtoRepository = produtoRepository;
     }
 
     [HttpPost("cadastrar")]
     public IActionResult Cadastrar([FromBody] Produto produto)
     {
-        _context.Produtos.Add(produto);
-        _context.SaveChanges();
+        
+        _produtoRepository.Cadastrar(produto);
         return Created("", produto);
     }
 
