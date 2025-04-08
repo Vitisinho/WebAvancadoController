@@ -11,7 +11,7 @@ public class ProdutoRepository : IProdutoReposity
         _context = context;
     }
 
-    public  void Cadastrar(Produto produto)
+    public void Cadastrar(Produto produto)
     {
         _context.Produtos.Add(produto);
         _context.SaveChanges();

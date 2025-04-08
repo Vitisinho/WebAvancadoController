@@ -15,6 +15,7 @@ var connectionString = builder.Configuration.GetConnectionString("MySQL");
 builder.Services.AddDbContext<AppDataContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 builder.Services.AddScoped<IProdutoReposity, ProdutoRepository>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 var app = builder.Build();
 

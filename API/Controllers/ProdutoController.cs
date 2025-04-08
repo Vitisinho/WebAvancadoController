@@ -22,6 +22,11 @@ public class ProdutoController : ControllerBase
         return Created("", produto);
     }
 
+    [HttpGet("listar")]
+    public IActionResult Listar()
+    {
+        return Ok(_produtoRepository.Listar());
+    }
     //Exemplo de metodo dentro de uma classe
     [HttpGet]
     public string Metodo()

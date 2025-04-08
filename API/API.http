@@ -1,6 +1,7 @@
 @API_HostAddress = http://localhost:5175
 
 @url_base = http://localhost:5175/api/produto
+@url_base1 = http://localhost:5175/api/usuario
 
 ### Cadastrar Produto
 POST {{url_base}}/cadastrar
@@ -9,3 +10,18 @@ Content-Type: application/json
 {
     "nome" : "Batata"
 }
+
+### Listar Produtos
+GET {{url_base}}/listar
+
+### Cadastrar Produto
+POST {{url_base1}}/cadastrar
+Content-Type: application/json
+
+{
+    "email" : "Vitor",
+    "senha" : "123456"
+}
+
+### Listar Produtos
+GET {{url_base1}}/listar
